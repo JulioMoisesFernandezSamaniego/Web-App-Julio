@@ -1,0 +1,12 @@
+{{> head}}
+
+        <!--Ahora llamamos al navbar-->
+        <!--Para que el nodemon este pendiente de los archivos de las diferentes extenciones hacemos esto nodemon server -e js,hbs,ccs-->
+        {{> navbar }}
+              <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <h1 class="display-4">Hola, {{capitalizar nombre}}</h1><!--Juntamos htmlcon css gracias al hbs-->
+                      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    </div>
+             </div>
+{{> footer}}
